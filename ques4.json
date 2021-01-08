@@ -1,0 +1,106 @@
+{
+     "intents":[
+        {
+            "tag":"Greeting",
+            "patterns":["hello","hi","hey","whats up"],
+            "responses":["hey","hello","hi","whats up"]
+        },
+        {
+            "tag":"Good bye",
+            "patterns":["bye","See you again"],
+            "responses":["Bye","Hope to see you again"]
+        },
+        {
+            "tag":"Thanks",
+            "patterns":["Thank you","Thanks a lot","Thanks a lot for answering the question","That's good"],
+            "responses":["Thanks"]
+        },
+        {
+            "tag":"GenQuestions",
+            "patterns":["how are you","How do you do"],
+            "responses":["I'm good,how are you","I'm fine"]
+        },
+        {
+            "tag":"Department",
+            "patterns":["Where is IT department","May I know the location of IT Department","Where IT Department"],
+            "responses":["IT Deparment is situated at R1/3-11","IT department's room number is R1/3-11"]
+        },
+        {
+            "tag":"Library",
+            "patterns":["Where is IT library","IT library location","Where IT library"],
+            "responses":["IT library is at R1/3-8","IT library's room number is R1/3-8"]     
+        },
+        {
+            "tag":"Digital Lab",
+            "patterns":["Where is network and digital lab room","Network and Digital lab room location,pls"],
+            "responses":["Digital lab is at R1/3-9","Digital lab's room number is R1/3-9" ]
+        },
+        {
+            "tag":"Grade",
+            "patterns":["May I know the grading system of the exam","Grade A,B,C,D,E means?","What are the grades"],
+            "responses":["Grade A:81-100,Grade B:61-80,Grade C:41-60,Grade D:21-40,Grade E:0-20"]
+        },
+        {
+            "tag":"rollcall",
+            "patterns":["What is the full percentage of roll call?","Roll call percentage"],
+            "responses":["at least 75 percentage needs to be full","75 percentage needs to be full to take the exam"]
+        },
+        {
+            "tag":"work",
+            "patterns":["What is the job of IT?","IT job in real world","May I know the job of IT"],
+            "responses":["Duties of an information technology specialist can include network management, software development and database administration."]
+        },
+        {
+            "tag":"field",
+            "patterns":["Where to go for field","Where can I go for practical field trip"],
+            "responses":["Usually,IT students go for the field trip to broadcast station(eg.MRTV) and UTYCC and telecom stations(eg.Telenor,Ooredoo,MPT)."]
+        },
+        {
+            "tag":"first year subject",
+            "patterns":["Which subjects learn in first year","first year subject"],
+            "responses":["You will learn Myanmar,English,Mathematics,Chemistry,Physics,Drawing as minor subjects.There only on major subject:ICS."]
+        },
+        {
+            "tag":"second year subjects",
+            "patterns":["Which subjects learn in second year?","Second year subjects"],
+            "responses":["You will study English,Engineering Mathematics as minor subjects and Web Development TechnologiesI,Basic Electricity&Electronics,Programming language C++,Data Communications, and Digital Logic Desgin as major subject."]
+        },
+        {	
+            "tag":"third year subjects",
+            "patterns":["Which subjects learn in third year?","third year subjects?"],
+            "responses":["You will study English,Engineering Mathematics as minor subjects and Computer networks,Web Development TechnologiesII,Data Structure,Programming language Java,Database Management Systems"]
+        },
+        {
+            "tag":"fourth year subjects",
+            "patterns":["Which subjects learn in fourth year?","fourth year subjects?"],
+            "responses":["You will learn English,engineering mathematics as minor subjects and Advanced Computer Networks,Computer Architecture and Organization,Advanced Data Management Techniques, Operating Systems,Modern Control Systems"]
+        },
+        {
+            "tag":"fifth year subjects",
+            "patterns":["Which subjects learn in fifth year?","fifth year subjects"],
+            "responses":["You will take Software Engineering,Embedded Systems,Cloud Computing,Digital Signal Processing,Digital Image Proceesing,Artifical Intelligence,Cryptography and network secutiry"]
+        },
+        {
+            "tag":"final year subjects",
+            "patterns":["Which subjects learn in final year?","final year subjects"],
+            "responses":["You will study Wireless and Mobile Communications,Network Planning and Management,Project Management,Humanities and Social Science"]
+        },
+        {
+            "tag":"software",
+            "patterns":["What is software?","About software","software?"],
+            "responses":["Software is a set of instructions,data or programs used to operate computers and execute specific tasks.Two types of software:Application software and system software"]
+        },
+        {
+            "tag":"E-library",
+            "patterns":["Where is E-library?","E-library location,please","May I know the location of E-library"],
+            "responses":["E-library's room number is R1/3-4","E-library is at R1/3-4" ]
+        },
+        {
+            "tag":"Botname",
+            "patterns":["Who are you","What's your name","May I know your name"],
+            "responses":["My name is Depato.I am a computer program made by neural networks for answering the technology queries."]
+        }
+       
+    ]
+}
+
